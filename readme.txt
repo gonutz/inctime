@@ -9,6 +9,7 @@ Example Usage
 	inctime 5h4m3s   Add 5 hours, 4 minutes and 3 seconds to the current system time.
 
 Supported suffixes are h (hours), m (minutes), s (seconds) and ms (milliseconds).
+The program will ask for administrator privileges to be able to change the time setting. Regular programs cannot change the system time on Windows.
 
 Installation
 ------------
@@ -18,4 +19,4 @@ Use the go tool to get the program:
 
 	go get -u -ldflags="-H=windowsgui" github.com/gonutz/inctime
 
-where -u is for getting the latest version online and -ldflags="-H=windowsgui" has Go build a Windows GUI program which does not open a console window if started from the "Run As" dialog.
+where -u is for getting the latest version online and -ldflags="-H=windowsgui" has Go build a Windows GUI program which does not open a console window if started from the "Run" dialog (Windows Key + R).
