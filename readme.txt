@@ -14,7 +14,7 @@ The program will ask for administrator privileges to be able to change the time 
 Installation
 ------------
 
-You need the Go programing language installed: https://golang.org/
+You need the Go programming language installed: https://golang.org/
 Use the go tool to get the program:
 
 	go get -u -ldflags="-H=windowsgui" github.com/gonutz/inctime
