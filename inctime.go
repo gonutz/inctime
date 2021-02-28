@@ -5,7 +5,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/gonutz/w32"
+	"github.com/gonutz/w32/v2"
 )
 
 const adminFlag = "we_are_admin"
